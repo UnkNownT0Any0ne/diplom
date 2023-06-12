@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конструктор</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Underdog&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header_flex">
+                <img src="img/logo/logomain.svg" class="header-logo" alt="logo">
+            <nav>
+                <ul class="nav">
+                    <li><a href="index.html">Главная</a></li>
+                <li><a href="tools.html">Конструктор</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+        </div>
+     </header>
+     <main class="main">
+        <div class="video_tool_prewiew">
+            <video muted loop autoplay>
+            <source src="videos\tool.webm" type="video/webm">
+            <source src="videos\tool.mp4" type="video/mp4">
+            </video>
+        </div>
+            <div class="tool_menu">
+                <div class="select_group_text">
+                    <p class="text_stena">Стена</p>
+                    <p class="text_floor">Полы</p>
+                    <p class="text_potolok">Потолок</p>
+                    <p class="text_furniture">Мебель</p>
+                </div>
+                <div class="select_group_cklick">
+                        <select id="framework" class="select_Stena">
+                                <option value="1">Бетон</option>
+                                <option value="2">Кирпич</option>
+                        </select>
+                        <select id="floor" class="select_Pol">
+                                <option value="1">Бетон</option>
+                                <option value="2">Керамика</option>
+                                <option value="3">Ламинат</option>
+                        </select>
+                        <select id="potolok" class="select_Potolok">
+                            <option value="1">Бетон</option>
+                            <option value="2">Серый</option>
+                            </select>
+                            
+                        <select id="furniture" class="select_Mebel">
+                            <option value="1">Нет</option>
+                            <option value="2">Да</option>
+                        </select>
+                </div>
+                <div class="btn_accept">
+                    <button id="btn"class="accept_style">Применить</button>
+                </div>
+                <div class="img_switch_windown">
+                    <img name="nam"src="img konstrukt\start img\start 0000.png" alt="img_switch_windown_style" class="img_switch_windown_style">
+                </div>
+
+            </div>
+     </main>
+     <script src="js\script.js"></script>
+     <footer>
+        <div class="container">
+            <div class="footer_flex">
+                <info_footer>
+                    <ul class="footer_padd">
+                        <li class="footer_padd_next"><a href="#" class="footer_text">2M.RU</a><img src="img\symbol\Line2M.svg" alt="Line2M"></li>
+                        <li class="footer_padd_next_2"><a href="#" class="footer_text">Помощь</a><img src="img\symbol\Linehelp.svg" alt="Linehelp"></li>
+                        <li class="footer_padd_next_3"><a href="#" class="footer_text">Документация</a><img src="img\symbol\LineDoc.svg" alt="LineDoc" class="lineDoc"></li>
+                    </ul>
+                    <ul class="footer_padd_2">
+                        <li class="footer_padd_text_4"><a href="#" class="footer_text_2">Обратная связь</a>
+                            <br>
+                            <a href="#" class="footer_text_2">Техническая поддержка</a>
+                        </li>
+                        <li class="footer_padd_text_6">
+                            <a href="#" class="footer_text_2">Условия использования</a>
+                        </li>
+                    </ul>
+                    <h6 class="text_copyright">© 2M.RU</h6>
+                </info_footer>
+            </div>
+        </div>
+      </footer>
+
+</body>
+</html>
